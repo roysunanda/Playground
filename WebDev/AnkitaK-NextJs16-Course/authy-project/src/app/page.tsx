@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <div>
-      <h1>hello world</h1>
-      <Button variant='outline'>Button</Button>
+      {/* <h1>hello world</h1> */}
+      <Button>Click me</Button>
     </div>
   );
 }
