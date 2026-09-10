@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm exec tsx src/index.ts",
-    "prisma:migrate": "pnpm exec prisma migrate dev --name init",
-    "prisma:generate": "pnpm exec prisma generate"
+    "dev": "pnpm exec tsx src/index.ts"
   },
   "keywords": [],
   "author": "",
