@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,10 +24,29 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang='en' data-theme='lemonade'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <nav>
+          <div className='navbar bg-base-100 shadow-sm'>
+            {/* <a className='btn btn-ghost text-xl'>daisyUI</a> */}
+            <Link href={`/`} className='btn btn-ghost text-xl'>
+              Home
+            </Link>
+            <br />
+            <Link href={`/dashboard`} className='btn btn-ghost text-xl'>
+              Dashboard
+            </Link>
+            <br />
+            <Link href={`/login`} className='btn btn-ghost text-xl'>
+              Login
+            </Link>
+            <br />
+            <Link href={`/sign-in`} className='btn btn-ghost text-xl'>
+              SignIn
+            </Link>
+          </div>
+        </nav>
         {children}
       </body>
     </html>
