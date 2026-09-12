@@ -9,6 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@better-auth-ui/core": "^1.7.23",
+    "@better-auth-ui/heroui": "^1.7.23",
+    "@better-auth-ui/react": "^1.7.23",
     "@better-auth/mongo-adapter": "^1.7.3",
     "better-auth": "^1.7.3",
     "dotenv": "^17.4.2",
