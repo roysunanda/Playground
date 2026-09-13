@@ -38,8 +38,8 @@ export default function RootLayout({
               Dashboard
             </Link>
             <br />
-            <Link href={`/login`} className='btn btn-ghost text-xl'>
-              Login
+            <Link href={`/sign-up`} className='btn btn-ghost text-xl'>
+              SignUp
             </Link>
             <br />
             <Link href={`/sign-in`} className='btn btn-ghost text-xl'>
