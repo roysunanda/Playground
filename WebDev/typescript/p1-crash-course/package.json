@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx src/chapter-1.ts",
-    "watch": "tsx watch src/chapter-1.ts"
+    "dev": "tsc-watch --onSuccess \"node ./dist/chapter-1.js\""
   },
   "keywords": [],
   "author": "",
@@ -19,6 +18,10 @@
   },
   "type": "module",
   "dependencies": {
-    "tsx": "^4.23.15"
+    "tsc-watch": "^7.2.1",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2"
   }
 }
