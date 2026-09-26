@@ -1,7 +1,16 @@
-function gatherParty(partyName: string, ...adventurers: string[]): string {
-  return `${partyName} consists of: ${adventurers.join(", ")}`;
+function hello(name: string) {
+  console.log(name);
 }
 
-const msg = gatherParty("The Fellowship", "Frodo", "Sam", "Gandalf");
-console.log(msg);
-// "The Fellowship consists of: Frodo, Sam, Gandalf"
+hello(`sandy`);
+
+// Enum
+// enum Size {
+//   small = 1,
+//   medium,
+//   large,
+// }
+
+// let mySize: Size = Size.small;
+
+// console.log(mySize);

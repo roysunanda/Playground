@@ -1,8 +1,8 @@
+"use strict";
 function hello(name) {
     console.log(name);
 }
 hello(`sandy`);
-export {};
 // Enum
 // enum Size {
 //   small = 1,
@@ -11,4 +11,3 @@ export {};
 // }
 // let mySize: Size = Size.small;
 // console.log(mySize);
-//# sourceMappingURL=chapter-1.js.map
