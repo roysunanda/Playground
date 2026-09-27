@@ -1,8 +1,8 @@
-function hello(name) {
-    console.log(name);
-}
-hello(`sandy`);
+// function hello(name: string) {
+//   console.log(name);
+// }
 export {};
+// hello(`sandy`);
 // Enum
 // enum Size {
 //   small = 1,
