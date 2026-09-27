@@ -1,7 +1,6 @@
 // function hello(name: string) {
 //   console.log(name);
 // }
-export {};
 // hello(`sandy`);
 // Enum
 // enum Size {
@@ -10,5 +9,6 @@ export {};
 //   large,
 // }
 // let mySize: Size = Size.small;
-// console.log(mySize);
+console.log(`helloooooooo world`);
+export {};
 //# sourceMappingURL=chapter-1.js.map
