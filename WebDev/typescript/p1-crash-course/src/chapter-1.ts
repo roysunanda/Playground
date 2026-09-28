@@ -15,18 +15,28 @@
 
 // console.log(`helloooooooo world`);
 
-type Item = {
-  name: string;
-  quantity: number;
-};
+// type Item = {
+//   name: string;
+//   quantity: number;
+// };
 
-type Address = {
-  street: string;
-  pin: number;
-};
+// type Address = {
+//   street: string;
+//   pin: number;
+// };
 
-type Order = {
-  id: string;
-  items: Item[];
-  address: Address;
-};
+// type Order = {
+//   id: string;
+//   items: Item[];
+//   address: Address;
+// };
+
+// const names = ["sandy", "bishal", "rupam"];
+
+// const nameList = new Set<string>(names);
+
+// console.log(nameList);
+
+const fullName: readonly string[] = ["sandy", "roy"];
+
+console.log(fullName);
