@@ -26,7 +26,12 @@
 // const names = ["sandy", "bishal", "rupam"];
 // const nameList = new Set<string>(names);
 // console.log(nameList);
-const fullName = ["sandy", "roy"];
-console.log(fullName);
+// const fullName: readonly string[] = ["sandy", "roy"];
+// console.log(fullName);
+// --------------------------------------------------------------------------------------------------
+function identity(item) {
+    return `this is ${item}`;
+}
+console.log(identity(true));
 export {};
 //# sourceMappingURL=chapter-1.js.map

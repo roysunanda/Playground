@@ -37,6 +37,14 @@
 
 // console.log(nameList);
 
-const fullName: readonly string[] = ["sandy", "roy"];
+// const fullName: readonly string[] = ["sandy", "roy"];
 
-console.log(fullName);
+// console.log(fullName);
+
+// --------------------------------------------------------------------------------------------------
+
+function identity<T>(item: T) {
+  return `this is ${item}`;
+}
+
+console.log(identity(true));
