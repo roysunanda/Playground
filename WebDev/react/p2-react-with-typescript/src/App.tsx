@@ -1,7 +1,14 @@
+import CourseGoal from "./components/CourseGoal";
+
 function App() {
+  // console.log(`hello world`);
   return (
     <>
-      <h1>hello world</h1>
+      <h1>React with Typescript</h1>
+      <CourseGoal
+        title="Learn React + TS"
+        description="Learn it from ground up"
+      />
     </>
   );
 }
