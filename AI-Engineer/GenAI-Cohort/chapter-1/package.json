@@ -16,5 +16,9 @@
       "onFail": "download"
     }
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "openai": "^7.53.0"
+  }
 }
