@@ -25,7 +25,7 @@ async function main() {
     messages: [
       {
         role: "user",
-        content: "You are an expert in Math. Tell me what is 2 + 48",
+        content: "what is your name ?",
       },
     ],
   });
